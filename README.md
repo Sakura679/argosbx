@@ -1,3 +1,13 @@
+## 快速使用
+```bash
+#下载
+curl -o /usr/local/bin/argosbx https://github.com/Sakura679/argosbx/raw/main/argosbx.sh && chmod +x /usr/local/bin/argosbx
+```
+```bash
+#临时隧道
+vmpt="" argo="vmpt" uuid="946e2f62-4b1c-446d-b70e-7d607664310c" argosbx
+```
+
 ## Argosbx一键无交互小钢炮脚本💣：极简 + 轻量 + 快速
 
 ---------------------------------------

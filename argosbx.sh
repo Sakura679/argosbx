@@ -986,13 +986,14 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
     {
       "tag":"warp-out",
       "protocol":"freedom",
-        "settings":{
+      "settings":{
         "domainStrategy":"${wxryx}"
-       },
-       "proxySettings":{
-       "tag":"x-warp-out"
-     }
-}
+      },
+      "streamSettings": {
+      "sockopt": {
+        "dialerProxy":"x-warp-out"
+	    }
+    }
   ],
   "routing": {
     "domainStrategy": "IPOnDemand",
